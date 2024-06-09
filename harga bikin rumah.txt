@@ -1,0 +1,18 @@
+rumah kayu perpekan terima kunci
+satu lantai = 900 K
+dua lantai = 1.600 k
+3 lantai = 2.400 k
+4 lantai = 3.500 k
+
+rumah beton perpekan terima kunci
+satu lantai = 1.200 k
+dua lantai = 2.400 k
+3 lantai = 3.500 k
+4 lantai = 5.000 k
+
+rumah kaca perpekan terima kunci
+satu lantai = 2.000 k
+dua lantai = 3.000 k
+3 lantai = 5.000 k
+4 lantai = 6.000 k
+

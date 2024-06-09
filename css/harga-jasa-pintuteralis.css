@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    text-align: center;  
+}
+header h1 a{
+    color: white;
+    text-decoration: none;
+}
+main h2 {
+    text-align: center;
+}
+
+#jasajasa1 {
+    width: 100%;
+    height: 450px;
+    /* background-color: lightgreen; */
+    /* border: 2px solid #4CAF50;
+    border-radius: 5px; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+/* #jasajasa2 {
+    width: 100%;
+    height: 550px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+} */
+#jasa1, #jasa2, #jasa3 {
+    width: 250px;
+    height: 380px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    text-align: center;
+}
+#jasa1:hover, #jasa2:hover, #jasa3:hover {
+    background-color: rgb(86, 90, 85);
+    color: white;
+    border: 2px solid white;
+}
+
+#fotol1, #fotol2, #fotol3 {
+    width: 200px;
+    height: 150px;
+    /* border: 2px solid #4CAF50; */
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#fotol1 {
+    background-image: url("images/pintu.jpg");
+    background-size: 250px;
+    background-position: center;
+    background-color: #4CAF50;
+}
+#fotol2 {
+    background-image: url("images/teralis.jpg");
+    background-size: 250px;
+    background-position: center;
+    background-color: #4CAF50;
+}
+#fotol3 {
+    background-image: url("images/jendela.jpg");
+    background-size: 300px;
+    background-position: center;
+    background-color: #4CAF50;
+}
+
+#jenisrumah button {
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50;
+    border-color: white;
+
+}
+
+#return {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+#return button {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    /* border: 2px solid white; */
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 200px;
+}

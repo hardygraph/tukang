@@ -1,0 +1,467 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+#logotukang {
+    height: 500px;
+    width: 500px;
+    background-image: url("images/logotukang.png");
+    background-size: 500px;
+    margin-top: 40px;
+    margin-left: 430px;
+    position: fixed;
+    transition: 1s;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
+
+nav{
+    height: 600px;
+    width: 1348px;
+    margin-left: -135px;
+    background-image: url("images/tukangdesign.jpg");
+    background-size:1350px;
+    background-position-y: 10px;
+    background-position-x: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+header h1 {
+    text-align: center;  
+}
+header h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    height: 50px;
+    list-style-type: none;
+    padding: 0;
+    /* text-align: center; */
+    background-color: #8dc98f;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-top: 10px;
+    /* display: inline; */
+    /* margin: 0 15px; */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;    
+}
+nav ul li :hover{
+    font-size: 21px;
+    color: gold;
+}
+
+#motto {
+    width: cover;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #4CAF50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+/* SEKSI 1 */
+#home{
+    height: 800px;
+    width: 1348px;
+    background-color: #daebd3;
+    /* background-color: white; */
+}
+#introduction {
+    width: 450px;
+    height: 480px;
+    background-color: white;
+    padding: 20px;
+    /* line-height: 480px; */
+    word-spacing: 7px;
+    /* text-indent: 20px; */
+    float: left;
+    border-radius: 10px;
+}
+#blocks{
+    width: 570px;
+    height: 520px;
+    /* background-color: green; */
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#block1, #block2, #block3 {
+    border-radius: 10px;
+    width: 180px;
+    height: 520px;
+}
+#block1{
+    background-color: rgb(0, 174, 12);
+}
+#block1:hover {
+    background-color:rgb(164, 88, 0);
+}
+#block2{
+    background-color: rgb(2, 192, 15);
+}
+#block2:hover {
+    background-color: grey;
+}
+#block3{
+    background-color: rgb(6, 246, 22);
+}
+#block3:hover {
+    background-color: lightblue;
+}
+
+#rumahkayu, #rumahbeton, #rumahkaca {
+    width: 150px;
+    height: 200px;
+    background-color: azure;
+    margin: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px, solid, azure;
+}
+#rumahkayu {
+    background-image: url("images/rumah\ kayu\ 2.jpg");
+    background-size: 200%;
+    background-position: center;
+}
+#rumahkayu:hover {
+    transform:rotate(15deg);
+    transition: 0.5s;
+}
+#rumahbeton {
+    background-image: url("images/rumah\ beton\ 2.jpg");
+    background-size: 170%;
+    background-position: center;
+}
+#rumahbeton:hover {
+    transform:rotate(15deg);
+    transition: 0.5s;
+}
+#rumahkaca {
+    background-image: url("images/rumah\ kaca.jpg");
+    background-size: 200%;
+    background-position: center;
+}
+#rumahkaca:hover {
+    transform:rotate(15deg);
+    transition: 0.5s;
+}
+
+#blocks h3 {
+    color: white;
+    text-align: center;
+}
+
+.textpromo {
+    width: 150px;
+    height: 230px;
+    /* background-color: azure; */
+    margin: 15px;
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+/* SEKSI 2 */
+#jasa-tukang {
+    height: 850px;
+    width: 1348px;
+    background-color: #daebd3;
+}
+#sales, #sales2 {
+    width: cover;
+    height: 250px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    padding-bottom: 65px;
+}
+.box {
+    width: 330px;
+    height: 270px;
+    background-color: white;
+    border-radius: 10px;
+}
+#sales, #sales2 h3{
+    color: #4CAF50;
+    text-align: center;
+}
+.promojasa {
+    width: 300px;
+    height: 180px;
+    /* background-color: lightblue; */
+    margin: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    word-spacing: 7px;
+    color: #3ec400; 
+}
+.box:hover {
+    transform:rotate(15deg);
+    transition: 0.5s;
+    background-color: yellow;
+}
+#renov{
+    width: cover;
+    height: 70px;
+    background-image: url("images/renovasi\ rumah\ cashback\ diskon.webp");
+    background-size: 300px;
+    background-position-y: -80px;
+    margin-bottom: 10px;
+}
+#ubin {
+    width: cover;
+    height: 70px;
+    background-image: url("images/cara-pasang-keramik-lantai.webp");
+    background-size: 300px;
+    background-position-y: -60px;
+    margin-bottom: 10px;
+}
+#atap {
+    width: cover;
+    height: 70px;
+    background-image: url("images/pemasangan_atap.jpg");
+    background-size: 300px;
+    background-position-y: -80px;
+    margin-bottom: 10px;
+}
+#cat {
+    width: cover;
+    height: 70px;
+    background-image: url("images/pengecatan.jpg");
+    background-size: 300px;
+    background-position-y: -50px;
+    margin-bottom: 10px;
+}
+#teralis {
+    width: cover;
+    height: 70px;
+    background-image: url("images/Pintu-Teralis-Warna-Biru.jpg");
+    background-size: 300px;
+    background-position-y: -110px;
+    margin-bottom: 10px;
+}
+#listrik {
+    width: cover;
+    height: 70px;
+    background-image: url("images/pipa-kabel-listrik-pvc.webp");
+    background-size: 300px;
+    background-position-y: -80px;
+    margin-bottom: 10px;
+}
+
+main section {
+    padding: 2em 0;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+    /* color: #4CAF50; */
+}
+
+.chapter {
+    width: cover;
+    height: 150px;
+    background-color: #45a049;
+    background-image: linear-gradient(to right,#45a049, #3ec400);
+    color: white;
+    padding-top: 50px;
+}
+
+.chapterending {
+    width: cover;
+    height: 450px;
+    background-color: #45a049;
+    background-image: linear-gradient(to right,#45a049, #3ec400);
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#info {
+    height: 700px;
+    width: cover;
+    background-color: white;
+}
+#news {
+    width: cover;
+    height: 400px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    padding-bottom: 65px;
+}
+#news h3 {
+    text-align: center;
+    color: #45a049;
+}
+.bar {
+    width: 300px;
+    height: 390px;
+    /* background-color: lightblue; */
+    margin: 40px;
+}
+
+
+#promobar, #eventbar, #blogbar {
+    width: 250px;
+    height: 320px;
+    background-color: white;
+    margin: 15px;  
+    /* border: 5px solid #3ec400; */
+    text-align: center;
+}
+#promobar:hover {
+    transform:rotate(15deg);
+    transition: 0.5s;
+    background-color: red;
+    color: white;
+}
+#promobar p{
+    text-align: center;
+}
+#eventbar:hover {
+    transform:rotate(15deg);
+    transition: 0.5s;
+    background-color: yellow;
+}
+#eventbar p{
+    text-align: center;
+}
+#blogbar:hover {
+    background-color: turquoise;
+    color: white;
+}
+#diskon, #acara, #blog {
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+#acara {
+    height: 150px;
+    background-image: url("images/bedahrumah.JPG");
+    background-size: 100%;
+}
+#blog {
+    height: 100px;
+    background-image: url("images/cat.jpg");
+    background-size: 100%;
+}
+#textblog {
+    width: 250px;
+    height: 100px;
+    /* overflow: scroll; */
+    font-size: 10px;
+}
+
+
+/* SEKSI 3 */
+#tentang-kami {
+    height: 1000px;
+    width: cover;
+    background-color: white;
+}
+#about {
+    height: 650px;
+    width: cover;
+    background-color: white;
+    padding: 70px;
+    text-align: justify;
+    word-spacing: 3px;
+    border-radius: 10px;
+    border: 2px solid #45a049;
+}
+#logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #45a049;
+    background-image: url("images/founder.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+#founder {
+    margin-left: 500px;
+    height: 200px;
+    width: 500px;
+    color: #45a049;
+}
+
+/* SEKSI 4 */
+#hubungi-kami {
+    background-color: #3ec400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    /* margin-top: 2em; */
+}
+
